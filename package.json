@@ -1,0 +1,27 @@
+{
+  "name": "vector-framework",
+  "version": "1.0.1",
+  "description": "A lightweight JavaScript framework for DOM and networking utilities.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "echo \"No tests yet\"",
+    "build": "echo \"Build step coming soon\""
+  },
+  "bin": {
+    "vector": "./bin/vector.js"
+  },
+  "keywords": [
+    "framework",
+    "javascript",
+    "dom",
+    "networking",
+    "vector"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
