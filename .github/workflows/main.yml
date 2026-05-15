@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Send to Fluxur
+      - name: Send clean message to Fluxur
         run: |
           curl -X POST ${{ secrets.FLUXUR_WEBHOOK }} \
           -H "Content-Type: application/json" \
           -d "{
-            \"message\": \"🚀 New commit pushed!\nRepo: ${{ github.repository }}\nAuthor: ${{ github.actor }}\nMessage: ${{ github.event.head_commit.message }}\"
+            \"message\": \"🚀 New commit pushed\nRepo: ${{ github.repository }}\nAuthor: ${{ github.actor }}\nCommit: ${{ github.event.head_commit.message }}\nURL: ${{ github.event.head_commit.url }}\"
           }"
