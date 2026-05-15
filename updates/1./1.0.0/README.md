@@ -8,14 +8,14 @@ This is the base line for the framework. Code examples are shown below to famili
 You MUST add the following into the files that use Vector.JS:
 ```javascript
 import { app } from "../src/index.js";
-import "../src/api/archy.js"
+import "../lib/lib.js"
 ```
 
 ## Examples
 
 ```javascript
 import { app } from "../src/index.js";
-import "../src/api/archy.js"
+import "../lib/lib.js"
 
 archy.round(num)
 archy.floor(num)

@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/LICENSE-MIT-green)
 
 # Archy.JS
-Archy.JS creates a better understanding for JavaScript. This is semi-like typescript but easier to follow, understand, and read. It will have some features that my add a learning curve to the Framework, or may change the way the Framework was intially built for.
+Archy.JS is a utility framework mainly focused on improving understandability, and readability, as well as giving it a more professional look. Some features may be irrelevant, but still provide important functions.
 
 ## What happened to Vector.js?
 There's already a framework named Vector.js.
@@ -24,7 +24,7 @@ app.getDomID("test").innerText = "Hello World!";
 ## Developer Notice
 To test out a feature via http server, run:
 ```bash 
-vector start
+archy start
 ```
 
 ## Updates
