@@ -6,4 +6,6 @@ vector.getDomTags = function(tagNames) {
     if (!element) {
         throw new Error(`[getDomsTag] [VDAPI] vector.getDomsTag returned (a) null tag(s)!`)
     }
+
+    return element;
 }
