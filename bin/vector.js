@@ -29,3 +29,8 @@ if (command === "start") {
 if (command  == "-version") {
     console.log(`[Vector] version ${latest_build_version}`);
 }
+
+if (command == "help") {
+    console.log("[Vector]: vector start to start a server");
+    console.log("[Vector]: vector -version to see current version");
+}
