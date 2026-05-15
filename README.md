@@ -28,3 +28,8 @@ vector start
 
 [1.0.0 (Intial Release)](/updates/1./1.0.0/README.md)
 
+
+## Extra
+
+No need to mess with /.github/workflows/main.yml. That is a webhook integration for the official fluxer server for Vector.js.
+

@@ -6,3 +6,5 @@ read COMMIT_MSG
 git init
 git add .
 git commit -m "[$author]: $COMMIT_MSG"
+
+git push
