@@ -1,0 +1,6 @@
+export * from "./getDomClass.js"
+export * from "./getDomsClass.js"
+export * from "./getDomID.js"
+export * from "./getDomsID.js"
+export * from "./createDom.js"
+export * from "./getDomsTag.js"
