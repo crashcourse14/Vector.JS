@@ -13,5 +13,5 @@ jobs:
           curl -X POST ${{ secrets.FLUXUR_WEBHOOK }} \
           -H "Content-Type: application/json" \
           -d "{
-            \"content\": \"🚀 New commit pushed!\nRepo: ${{ github.repository }}\nAuthor: ${{ github.actor }}\nMessage: ${{ github.event.head_commit.message }}\"
+            \"message\": \"🚀 New commit pushed!\nRepo: ${{ github.repository }}\nAuthor: ${{ github.actor }}\nMessage: ${{ github.event.head_commit.message }}\"
           }"
