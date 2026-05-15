@@ -1,6 +1,6 @@
-import { archy } from "../index.js"
+import { app } from "../index.js"
 
-archy.rmvClassList = function({id, classListName}) {
+app.rmvClassList = function({id, classListName}) {
     const element = document.getElementById(id);
 
     if (!id) {

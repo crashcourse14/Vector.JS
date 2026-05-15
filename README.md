@@ -15,10 +15,10 @@ There's already a framework named Vector.js.
 ## Example
 
 ```javascript
-import { vector } from "../src/index.js";
-import "../src/api/vector.js"
+import { app } from "../src/index.js";
+import "../src/api/archy.js"
 
-vector.getDomID("test").innerText = "Hello World!";
+app.getDomID("test").innerText = "Hello World!";
 ````
 
 ## Developer Notice

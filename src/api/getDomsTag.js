@@ -1,6 +1,6 @@
-import { archy } from "../index.js"
+import { app } from "../index.js"
 
-archy.getDomTags = function(tagNames) {
+app.getDomTags = function(tagNames) {
     const element = document.getElementsByTagName(tagNames);
 
     if (!element) {

@@ -1,6 +1,6 @@
-import { archy } from "../index.js"
+import { app } from "../index.js"
 
-archy.getDomClass = function(className) {
+app.getDomClass = function(className) {
     const element = document.getElementsByClassName(className);
 
     if (!element) {

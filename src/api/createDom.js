@@ -1,6 +1,6 @@
-import { archy } from "../index.js"
+import { app } from "../index.js"
 
-archy.createDom = function({id, className }) {
+app.createDom = function({id, className }) {
 
     const element = document.createElement("div");
 

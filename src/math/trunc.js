@@ -1,9 +1,9 @@
 import { archy } from "../index.js"
 
-archy.decimal = function(integer) {
+archy.trunc = function(integer) {
 
     if (!integer) {
-        throw new Error(`[decimal] [VMATH] expected an integer in archy.decimal() but it returned null.`)
+        throw new Error(`[trunc] [VMATH] expected an integer in archy.trunc() but it returned null.`)
     }
 
     return Math.trunc(integer);

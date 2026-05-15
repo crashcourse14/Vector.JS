@@ -1,6 +1,6 @@
-import { archy } from  "../index.js"
+import { app } from  "../index.js"
 
-archy.openWindow = function({url, args}) {
+app.openWindow = function({url, args}) {
 
     if (!args) {
         return;

@@ -1,6 +1,6 @@
-import { archy } from "../index.js"
+import { app } from "../index.js"
 
-archy.getDomID = function(id) {
+app.getDomID = function(id) {
     const element = document.getElementById(id);
 
     if (!element) {

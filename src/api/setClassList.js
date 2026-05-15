@@ -1,6 +1,6 @@
-import { archy } from "../index.js"
+import { app } from "../index.js"
 
-archy.setClassList = function({id, classList}) {
+app.setClassList = function({id, classList}) {
     const element = document.getElementById(id);
 
     if (!id) {
