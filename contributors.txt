@@ -1,0 +1,9 @@
+You may introduce your self here by displaying your name or username, email, and country/state.
+Suggest using this format below for a clean and organized display:
+
+name/userame - country, state
+username@gmail.com
+
+
+crashcourse14 - Texas, The States.
+haydyncm@gmail.com
