@@ -1,10 +1,10 @@
-import { vector } from "../index.js"
+import { archy } from "../index.js"
 
-vector.getDomID = function(id) {
+archy.getDomID = function(id) {
     const element = document.getElementById(id);
 
     if (!element) {
-        throw new Error(`[getDomsID] [VDAPI] vector.getDomsID returned (a) null id(s)`);   
+        throw new Error(`[getDomsID] [VDAPI] archy.getDomsID returned (a) null id(s)`);   
     }
 
     return element;

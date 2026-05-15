@@ -1,9 +1,9 @@
-import { vector } from "../index.js"
+import { archy } from "../index.js"
 
-vector.floor = function(integer) {
+archy.floor = function(integer) {
 
     if (!integer) {
-        throw new Error(`[floor] [VMATH] expected an integer in vector.floor() but it returned null.`)
+        throw new Error(`[floor] [VMATH] expected an integer in archy.floor() but it returned null.`)
     }
 
     return Math.floor(integer);

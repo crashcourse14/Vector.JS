@@ -1,25 +1,25 @@
 {
-  "name": "vector-framework",
+  "name": "archy-framework",
   "version": "1.0.1",
   "description": "A lightweight JavaScript framework for DOM and networking utilities.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "vector start",
-    "version": "vector -version",
-    "build": "echo \"Build step coming soon\""
+    "start": "archy start",
+    "version": "archy -version",
+    "build": "archy start"
   },
   "bin": {
-    "vector": "./bin/vector.js"
+    "archy": "./bin/archy.js"
   },
   "keywords": [
     "framework",
     "javascript",
     "dom",
     "networking",
-    "vector"
+    "archy"
   ],
-  "author": "YourName",
+  "author": "C3realCodes",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {}

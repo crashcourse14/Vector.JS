@@ -6,8 +6,11 @@
 ![NPM](https://img.shields.io/badge/VERSION-1.0.0-blue)
 ![License](https://img.shields.io/badge/LICENSE-MIT-green)
 
-# Vector.JS
-Vector.JS creates a better understanding for JavaScript. This is semi-like typescript but easier to follow, understand, and read. It will have some features that my add a learning curve to the Framework, or may change the way the Framework was intially built for.
+# Archy.JS
+Archy.JS creates a better understanding for JavaScript. This is semi-like typescript but easier to follow, understand, and read. It will have some features that my add a learning curve to the Framework, or may change the way the Framework was intially built for.
+
+## What happened to Vector.js?
+There's already a framework named Vector.js.
 
 ## Example
 

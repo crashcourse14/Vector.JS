@@ -1,10 +1,10 @@
-import { vector } from "../index.js"
+import { archy } from "../index.js"
 
-vector.getDomClass = function(className) {
+archy.getDomClass = function(className) {
     const element = document.getElementsByClassName(className);
 
     if (!element) {
-        throw new Error(`[getDomClass] [VDAPI] vector.getDomsClass returned (a) null class(es)!`);
+        throw new Error(`[getDomClass] [VDAPI] archy.getDomsClass returned (a) null class(es)!`);
     }
     
     return element;

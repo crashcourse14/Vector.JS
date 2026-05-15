@@ -1,10 +1,10 @@
-import { vector } from "../index.js"
+import { archy } from "../index.js"
 
-vector.rmvClassList = function({id, classListName}) {
+archy.rmvClassList = function({id, classListName}) {
     const element = document.getElementById(id);
 
     if (!id) {
-        throw new Error(`[setClassList] [VAPI] vector.setClassList returned an ID that is null!`);
+        throw new Error(`[setClassList] [VAPI] archy.setClassList returned an ID that is null!`);
     }
 
     element.classList.remove(classListName);

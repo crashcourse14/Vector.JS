@@ -1,6 +1,6 @@
-import { vector } from "../index.js"
+import { archy } from "../index.js"
 
-vector.createDom = function({id, className }) {
+archy.createDom = function({id, className }) {
 
     const element = document.createElement("div");
 

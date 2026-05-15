@@ -1,9 +1,9 @@
-import { vector } from "../src/index.js";
-import "../src/api/vector.js"
+import { archy } from "../src/index.js";
+import "../lib/lib.js"
 
-vector.getDomID("title").innerText = "Vector.JS";
+archy.getDomID("title").innerText = "Vector.JS";
 
-vector.setClassList({
+archy.setClassList({
     id: "title",
     classList: "important"
 })

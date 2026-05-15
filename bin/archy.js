@@ -10,7 +10,7 @@ const flag = args[1];
 
 if (command === "start") {
 
-    console.log("[Vector] Starting dev server on port 8000...");
+    console.log("[Archy] Starting dev server on port 8000...");
 
     const server = spawn(
         "python3",
@@ -21,16 +21,16 @@ if (command === "start") {
     );
 
     server.on("close", (code) => {
-        console.log(`[Vector] Server exited with code ${code}`);
+        console.log(`[Archy] Server exited with code ${code}`);
     });
 
 }
 
 if (command  == "-version") {
-    console.log(`[Vector] version ${latest_build_version}`);
+    console.log(`[Archy] version ${latest_build_version}`);
 }
 
 if (command == "help") {
-    console.log("[Vector]: vector start to start a server");
-    console.log("[Vector]: vector -version to see current version");
+    console.log("[Archy]: archy start to start a server");
+    console.log("[Archy]: archy -version to see current version");
 }

@@ -1,9 +1,9 @@
-import { vector } from "../index.js"
+import { archy } from "../index.js"
 
-vector.round = function(integer) {
+archy.round = function(integer) {
 
     if (!integer) {
-        throw new Error(`[round] [VMATH] expected an integer in vector.round() but it returned null.`)
+        throw new Error(`[round] [VMATH] expected an integer in archy.round() but it returned null.`)
     }
 
     return Math.round(integer);

@@ -1,6 +1,6 @@
-import { vector } from  "../index.js"
+import { archy } from  "../index.js"
 
-vector.openWindow = function({url, args}) {
+archy.openWindow = function({url, args}) {
 
     if (!args) {
         return;
