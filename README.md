@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/LICENSE-MIT-green)
 
 # Vector.JS
-Vector.JS creates a better understanding for JavaScript. This is semi-like typescript but easier to follow, understand, and read.
+Vector.JS creates a better understanding for JavaScript. This is semi-like typescript but easier to follow, understand, and read. It will have some features that my add a learning curve to the Framework, or may change the way the Framework was intially built for.
 
 ## Example
 

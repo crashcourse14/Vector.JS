@@ -39,6 +39,7 @@ vector.rmvClassList({
 
 vector.openWindow({
     url: "https://example.com",
+    args: "width=800, height=800" //Not needed if you're just opening a tab
 });
 
 //Broken for right now
