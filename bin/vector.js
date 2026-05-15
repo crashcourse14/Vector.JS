@@ -3,14 +3,14 @@
 import { spawn } from "child_process";
 
 const args = process.argv.slice(2);
-const latest_build_version = "1.0.0"
+const latest_build_version = "1.0.1"
 
 const command = args[0];
 const flag = args[1];
 
-if (command === "start" && flag === "--DOM") {
+if (command === "start") {
 
-    console.log("[Vector] Starting DOM server on port 8000...");
+    console.log("[Vector] Starting dev server on port 8000...");
 
     const server = spawn(
         "python3",
@@ -27,5 +27,5 @@ if (command === "start" && flag === "--DOM") {
 }
 
 if (command  == "-version") {
-    console.log("[Vector] version 1.0.1")
+    console.log(`[Vector] version ${latest_build_version}`);
 }

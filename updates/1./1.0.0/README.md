@@ -5,7 +5,7 @@
 This is the base line for the framework. Code examples are shown below to familiarize.
 
 ## NOTICE
-You MUST add the following into the files that user Vector.JS:
+You MUST add the following into the files that use Vector.JS:
 ```javascript
 import { vector } from "../src/index.js";
 import "../src/api/vector.js"

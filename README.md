@@ -21,13 +21,9 @@ vector.getDomID("test").innerText = "Hello World!";
 ## Developer Notice
 To test out a feature via http server, run:
 ```bash 
-./BuildDOM.sh
+vector start
 ```
 
-To commit make sure you edit this in ReleaseBuild.sh, then run it:
-```bash
-LATEST_BUILD_VER="1.0.0"
-```
 ## Updates
 
 [1.0.0 (Intial Release)](/updates/1./1.0.0/README.md)

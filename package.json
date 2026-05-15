@@ -5,9 +5,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node src/index.js",
-    "test": "echo \"No tests yet\"",
+    "start": "vector start",
+    "version": "vector -version",
     "build": "echo \"Build step coming soon\""
   },
   "bin": {
