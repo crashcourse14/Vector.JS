@@ -20,5 +20,5 @@ jobs:
           -H "Content-Type: application/json" \
           -d "{
             \"content\": \"🚀 New commit pushed\nRepo: $REPO\nAuthor: $ACTOR\nCommit: $COMMIT_MSG\nURL: $COMMIT_URL\",
-            \"username\": \"GitHub Bot\"
+            \"username\": \"GitHub Commit Push\"
           }"
