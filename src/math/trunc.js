@@ -1,10 +1,10 @@
 import { archy } from "../index.js"
 
-archy.trunc = function(integer) {
+archy.trunc = function(number) {
 
-    if (!integer) {
-        throw new Error(`[trunc] [VMATH] expected an integer in archy.trunc() but it returned null.`)
+    if (typeof number !== "number") {
+        throw new Error(`[trunc] [VMATH] expected a number in archy.trunc() but it returned null.`)
     }
 
-    return Math.trunc(integer);
+    return Math.trunc(number);
 }

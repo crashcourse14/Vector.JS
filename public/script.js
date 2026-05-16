@@ -8,6 +8,18 @@ app.setClassList({
     classList: "important"
 })
 
+app.const("Human", {
+    name: "John",
+    age: "30"
+    //more things about human
+});
+
+app.function("greet", (name) => {
+    alert(`Hello, ${name}!`);
+});
+
+app.function.greet(app.const.Human.name); 
+
 
 
 

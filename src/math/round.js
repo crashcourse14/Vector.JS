@@ -1,10 +1,10 @@
 import { archy } from "../index.js"
 
-archy.round = function(integer) {
+archy.round = function(number) {
 
-    if (!integer) {
-        throw new Error(`[round] [VMATH] expected an integer in archy.round() but it returned null.`)
+    if (typeof number !== "number") {
+        throw new Error(`[round] [VMATH] expected a number in archy.round() but it returned null.`)
     }
 
-    return Math.round(integer);
+    return Math.round(number);
 }
