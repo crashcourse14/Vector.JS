@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { spawn } from "child_process";
+import { exec, spawn } from "child_process";
 import fs from "fs";
 import path from "path";
 
@@ -10,7 +10,7 @@ const latest_build_version = "1.0.1"
 const command = args[0];
 const flag = args[1];
 
-if (command === "start") {
+if (command === "-start") {
 
     console.log("[Archy] Starting dev server on port 8000...");
 
@@ -57,6 +57,12 @@ if (command == "-plugins") {
 }
 
 if (command == "help") {
-    console.log("[Archy]: archy start to start a server");
+    console.log("[Archy]: archy -start to start a server");
     console.log("[Archy]: archy -version to see current version");
+    console.log("[Archy]: archy -plugins to see all plugins in ./plugins/");
+    console.log("[Archy]: archy -commit to commit changes to git");
+}
+
+if (command == "-commit") {
+    spawn("./commit.sh", [], { stdio: "inherit" });
 }

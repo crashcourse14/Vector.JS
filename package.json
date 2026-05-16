@@ -5,9 +5,11 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "archy start",
+    "start": "archy -start",
     "version": "archy -version",
-    "build": "archy start"
+    "build": "archy -start",
+    "plugins": "archy -plugins",
+    "commit": "archy -commit"
   },
   "bin": {
     "archy": "./bin/archy.js"
