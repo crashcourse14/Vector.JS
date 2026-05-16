@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 import { spawn } from "child_process";
+import fs from "fs";
+import path from "path";
 
 const args = process.argv.slice(2);
 const latest_build_version = "1.0.1"
@@ -28,6 +30,30 @@ if (command === "start") {
 
 if (command  == "-version") {
     console.log(`[Archy] version ${latest_build_version}`);
+}
+
+if (command == "-plugins") {
+    try {
+        const pluginsDir = path.join(process.cwd(), "plugins");
+
+        if (!fs.existsSync(pluginsDir)) {
+            console.log('[Archy] No plugins directory found at ./plugins/');
+        } else {
+            const entries = fs.readdirSync(pluginsDir, { withFileTypes: true });
+            const pluginNames = entries
+                .filter(e => e.isDirectory() || e.isFile())
+                .map(e => e.name);
+
+            if (pluginNames.length === 0) {
+                console.log('[Archy] No plugins found in ./plugins/');
+            } else {
+                console.log('[Archy] Plugins:');
+                pluginNames.forEach(n => console.log(` - ${n}`));
+            }
+        }
+    } catch (err) {
+        console.error('[Archy] Error reading plugins:', err.message || err);
+    }
 }
 
 if (command == "help") {
