@@ -12,17 +12,3 @@ app.const = function(name, value) {
     });
 }
 
-//Example:
-
-/**********
-app.const("Human", {
-    name: "John",
-    age: "30"
-    //more things about human
-});
-
-app.const.Human; //{name: "John", age: "30"}
-
-app.const.Human = {}; //Error: Cannot assign to read only property 'Human' of object '[object Object]'
-
-**********/
