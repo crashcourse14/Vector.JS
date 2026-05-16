@@ -64,5 +64,5 @@ if (command == "help") {
 }
 
 if (command == "-commit") {
-    spawn("./commit.sh", [], { stdio: "inherit" });
+    spawn("./scripts/commit.sh", [], { stdio: "inherit" });
 }
